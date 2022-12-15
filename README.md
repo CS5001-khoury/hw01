@@ -4,7 +4,7 @@ First before you start this homework assignment, make sure you compete the sylla
 
 
 
-## Warm-up: Star Rating App
+## Task 0: warm-up - Star Rating App
 
 For this assignment, you will want to use the provided template file called [star_rating.py](star_rating.py). The file does have errors in it, but you should be able to load it fine into IDLE. If you run the file without changes, it should output the following:
 
@@ -68,7 +68,7 @@ Which is now part of the Emojicon, often translating to 🤷
 
 For the rest of the assignment, you will be working on two pieces of ASCII artwork. 
 
-### Hobby Card
+### Task 1: Hobby Card
 
 Use the file  [hobby_card.py](hobby_card.py) to start out. You will be building a `string` made up of additional strings. Once again,
 review the lecture on concatenation. As a reminder to help you out, you can do something like the following:
@@ -77,7 +77,7 @@ a
 card = "This is my line\n"
 card = card + "this is my second line\n"
 
-print(card)
+print(card) # you should not be using print in your hobby_card.py unless it is to debug
 ```
 
 would print to the screen
@@ -92,7 +92,7 @@ Even better, you can also modify the above to use shortcut assignments to produc
 card = "This is my line\n"
 card += "this is my second line\n"
 
-print(card)
+print(card) # you should not be using print in your hobby_card.py unless it is to debug
 ```
 
 Your **task** - Build a card that lists your name and your hobbies. However, you have to meet the following conditions with the card.
@@ -129,13 +129,16 @@ Along with a finished example:
 +------------------------------+
 ```
 
+> **PRO TIP**  
+> Run the program frequently as you are building the card. It will be *much* easier to get it correct.  
+> Even when writing the solution we ran every time we created a new line. 
 
-### Get Creative!
+### Task 2:  Get Creative!
 
 Your last **task**, use the following template file [my_art.py](my_art.py). Using print statements, create some ASCII art! You may want to look at [some examples](https://www.asciiart.eu/). Please note, for part of your in, you will be sharing this art with other students!
 
 **IMPORTANT**  
-After finishing your hobby card, and ASCII art, go ahead and post the *output* (not the code) to MS Teams.  To help with formatting, you can (and should) use the </> icon in teams to post the output.
+After finishing your hobby card, and ASCII art, go ahead and post the *output* (not the code) to MS Teams.  You should only do this after you have earned 3/4 points using the assignment auto-grader (grade scope)!  To help with formatting, you can (and should) use the </> icon in teams to post the output. 
 
 ![Teams post example](teams_post.png)
 
@@ -145,3 +148,20 @@ Even though it says code snippet, when you click on it, you will have the 'text'
 
 
 ## Grading Rubric
+
+1. Learning (AG)
+   * each star rating function returns the correct number of stars
+2. Approaching  (AG)
+   * `main()` function fixed in star_rating.py with proper spacing
+3. Meets  (AG)
+   * Hobby Card completed with proper formatting
+4. Exceeds  (MG)
+   * Uses * concatenation or string  f-formatting for creating stars
+   * Properly assigns the variables without additional prints or unneeded assignments
+   * Properly updates docstrings in all files
+   * Adds additional understanding / self explanation comments (better to do more than less for now)
+   * Posted both ASCII art and hobby card to MS Teams 
+
+
+AG - Auto-graded
+MG - Manually graded
