@@ -44,11 +44,12 @@ def five_star():
 
 
 def main():
-    print("1 star rating: " + one_star())
-    print("2 star rating: " + two_star())
-    print("3 star rating: " + three_star())
-    print("3 star rating: " + four_star())
-    print("3 star rating: " + five_star())
+    # fix me
+    print("1 star rating:" + one_star())
+    print("2 star rating:" + two_star())
+    print("3 star rating:" + three_star())
+    print("3 star rating:" + four_star())
+    print("3 star rating:  " + five_star())
     ## also you could do the following
     rating = five_star()
     print(f"\n\nMy star rating is {rating}")  # look up format strings!

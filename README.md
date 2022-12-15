@@ -50,10 +50,10 @@ First you will see a lot of `functions` in the code. While we will cover these l
 
 **Your Tasks**  
 1. You should change each function to set the correct number of stars to the variable `stars` 
-   1. You don't need to modify anything else, just that one line!
-   2. You should use the string multiplication operator (review the lecture on concatenation)
+   * You don't need to modify anything else, just that one line!
+   * You should use the string multiplication operator (review the lecture on concatenation)
 2. Find the errors in the print out in the main function, fix them
-   1. Hint: you can add another print statement to add the two missing lines
+   * Don't forget the two missing lines
 
 
 
