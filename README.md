@@ -60,9 +60,88 @@ First you will see a lot of `functions` in the code. While we will cover these l
 
 ## ASCII Art
 
+[ASCII art](https://en.wikipedia.org/wiki/ASCII_art) is an age old tradition actually dating back to [printing presses](https://en.wikipedia.org/wiki/ASCII_art#/media/File:Brooklyn-Daily-Eagle-1875-01-06.png). It is the idea of using typography to build pictures out of the characters.  Even  today, emotes start off as simple ASCII art! 
+
+>  ¯\\_(ツ)_/¯
+
+Which is now part of the Emojicon, often translating to 🤷
+
+For the rest of the assignment, you will be working on two pieces of ASCII artwork. 
+
 ### Hobby Card
 
-### Something Fun
+Use the file  [hobby_card.py](hobby_card.py) to start out. You will be building a `string` made up of additional strings. Once again,
+review the lecture on concatenation. As a reminder to help you out, you can do something like the following:
+a
+```python
+card = "This is my line\n"
+card = card + "this is my second line\n"
+
+print(card)
+```
+
+would print to the screen
+```text
+This is my line
+this is my second line
+```
+
+Even better, you can also modify the above to use shortcut assignments to produce the exact same result, but easier to read!
+
+```python
+card = "This is my line\n"
+card += "this is my second line\n"
+
+print(card)
+```
+
+Your **task** - Build a card that lists your name and your hobbies. However, you have to meet the following conditions with the card.
+
+1. the total width / length of the card is 32 characters
+2. First and last row: 30 dashes (`-`) and a plus (`+`) signs on each corner
+2. Each other row uses a bar `|` to start and end
+3. The second row will have centered "A Hobby Card" (case matters!)
+4. The third row will have your name (as in your actual name, or a nickname if you have a particularly long name)
+5. You will have an empty row
+6. Followed up by up to three hobbies listed
+   1. Indent 4 spaces before your first hobby
+
+Here is a templated example:
+```text
++------------------------------+
+|         A Hobby Card         |
+| Your Name                    |
+|                              |
+|    hobby1, hobby2, hobby3    |
+|                              |
++------------------------------+
+```
+
+Along with a finished example:
+
+```text
++------------------------------+
+|         A Hobby Card         |
+| Albert Lionelle              |
+|                              |
+|    Fencing, D&D, Writing     |
+|                              |
++------------------------------+
+```
+
+
+### Get Creative!
+
+Your last **task**, use the following template file [my_art.py](my_art.py). Using print statements, create some ASCII art! You may want to look at [some examples](https://www.asciiart.eu/). Please note, for part of your in, you will be sharing this art with other students!
+
+**IMPORTANT**  
+After finishing your hobby card, and ASCII art, go ahead and post the *output* (not the code) to MS Teams.  To help with formatting, you can (and should) use the </> icon in teams to post the output.
+
+![Teams post example](teams_post.png)
+
+Even though it says code snippet, when you click on it, you will have the 'text' option which is what you should use. You may have to have the application installed for it to show up as compared to the web version (you should have it installed anyway for this course!). As teams changes, and it is slightly different, do the best you can.
+
+
 
 
 ## Grading Rubric
