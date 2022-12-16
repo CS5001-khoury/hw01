@@ -163,6 +163,7 @@ It should be roughly a paragraph. You can use any standard text editor to create
    * `main()` function fixed in star_rating.py with proper spacing
 3. Meets  (AG)
    * Hobby Card completed with proper formatting
+   * my_art.py submitted (graded in exceeds)
 4. Exceeds  (MG)
    * Uses * concatenation or string  f-formatting for creating stars
    * Properly assigns the variables without additional prints or unneeded assignments
