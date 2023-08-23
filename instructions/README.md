@@ -1,12 +1,13 @@
 # Homework 1: Welcome to CS5001
 
-First before you start this homework assignment, make sure you compete the syllabus quiz! You won't be able to turn in this homework until you score a 4 of 4 on the quiz. Now let's start. Part of this homework will be auto-graded and parts will be graded via TAs. You will have four points possible for this assignment, each corresponding to a Tier Mastery category (see the syllabus!)
+First before you start this homework assignment, make sure you complete the syllabus quiz! You won't be able to turn in this homework until you score a 4 of 4 on the quiz. Now let's start. Part of this homework will be auto-graded and parts will be graded via TAs. You will have four points possible for this assignment, each corresponding to a Tier Mastery category (see the syllabus!). It is pretty common to have 3 points with the autograder and the final point being your manually graded point. 
 
+You will be linked template files to use throughout these instructions. You can download them, or if you view the raw code you can copy and past into IDLE saving out the files. Really downloading them to a folder for the assignment, and then opening the files in IDLE is probably the easier path in the long one to prevent accidental copy and paste errors. You can also download this entire repository at once by going to [https://github.com/CS5001-khoury/hw01](https://github.com/CS5001-khoury/hw01) and clicking the green code button, and then 'download zip'. Needless to say, there are a number of ways to get to the templates, and you will slowly develop a workflow that works best for you! 
 
 
 ## Task 0: warm-up - Star Rating App
 
-Use the provided template file called [star_rating.py](star_rating.py). The file does have logical errors in it, but you should be able to load it fine into IDLE. If you run the file without changes, it should output the following:
+Use the provided template file called [star_rating.py](../star_rating.py). The file does have logical errors in it, but you should be able to load it fine into IDLE. If you run the file without changes, it should output the following:
 
 ```text
 1 star rating: 
@@ -70,7 +71,7 @@ For the rest of the assignment, you will be working on two pieces of ASCII artwo
 
 ### Task 1: Hobby Card
 
-Use the file  [hobby_card.py](hobby_card.py) to start out. You will be building a `string` made up of additional strings. Once again,
+Use the file  [hobby_card.py](../hobby_card.py) to start out. You will be building a `string` made up of additional strings. Once again,
 review the lecture on concatenation. As a reminder to help you out, you can do something like the following:
 
 ```python
@@ -131,12 +132,12 @@ Along with a finished example:
 
 > **PRO TIP**  
 > Run the program frequently as you are building the card. It will be *much* easier to get it correct.  
-> Even when writing the solution, we ran the code every time we created a new line. 
+> Even when writing the solution, we ran the code **every time we created a new line**. 
 
  
 ### Task 2:  Get Creative!
 
-👉🏽 **Task**, use the following template file [my_art.py](my_art.py). Using `print` statements, create some ASCII art! You may want to look at [some examples](https://www.asciiart.eu/). Please note, for part of your turn in, you will be sharing this art with other students!
+👉🏽 **Task**, use the following template file [my_art.py](../my_art.py). Using `print` statements, create some ASCII art! You may want to look at [some examples](https://www.asciiart.eu/). Please note, for part of your turn in, you will be sharing this art with other students!
 
 **IMPORTANT**  
 After finishing your hobby card, and ASCII art, go ahead and post the *output* (not the code) to MS Teams.  You should only do this after you have earned 3/4 points using the assignment auto-grader!  To help with formatting, you can (and should) use the </> icon in teams to post the output. Click the A with the pen, and the dots if you don't see it right away.
@@ -157,7 +158,7 @@ As a reminder the download button is the top left, after you have clicked on the
 
 To open an `.md` (markdown) file, it needs a simple text editor. You can use IDLE, and when you select open, make sure you enable 'All Files' in the open dialog box when opening and on your first save. You can also use notepad, or notepad++, or many other programs. You will find about halfway through the semester many Integrated Development Environments (IDE) will have support for markdown. The contents of the file are meant to be simple text to read, but you will notice there is some special formatting in the file. This is called markdown, and it is a simple way to format text. You can learn more about markdown [here](https://www.markdownguide.org/basic-syntax/). These instructions were written in markdown. 
 
-For your README.md, you do not need to worry about most the formats! The TAs will read the raw text in the file, and you will get full credit for the questions. However, you should make sure to answer the questions in your own words, and not just copy and paste from the internet. You can use the internet to help you, but make sure to cite your sources. 
+For your README.md, you do not need to worry about most the formats! The TAs will read the raw text in the file. However, you should make sure to answer the questions in your own words, and not just copy and paste from the internet. You can use the internet to help you, but make sure to cite your sources. 
 
 As a reminder with the grading system, it is often all or nothing. Meaning if there is a small thing the TA wants you to fix, they will respond with a comment in gradescope making a suggestion on what to fix. 
 
@@ -187,3 +188,54 @@ MG - Manually graded
 
 ### Submission Reminder 🚨
 For manually graded elements, we only guarantee time to submit for a regrade IF you submit by the DUE DATE. Submitting late may mean it isn't possible for the MG to be graded before the AVAILABLE BY DATE, removing any windows for your to resubmit in time. While it will be graded, it is always best to submit by the due date, so you have full opportunity to improve your grade.
+
+## 📚 Additional Resources
+
+* [ASCII Art Examples](https://www.asciiart.eu/)
+* [Markdown](https://www.markdownguide.org/basic-syntax/)
+* [Github Markdown](https://guides.github.com/features/mastering-markdown/)
+* [Python Functions Tutorial](https://www.w3schools.com/python/python_functions.asp) - just the first part
+
+### Functions
+
+Python by default excutes code in the as it sees it. As such, if your file looks like
+
+```python
+x = "x"
+print(x * 10)
+```
+
+It will print `x` 10 times to the screen. However, if you want to reuse code, you can use functions. Functions are a way to group code together, and then call it later. For example, you can do the following:
+
+```python
+
+def print_x_times_10():
+    x = "x"
+    print(x * 10)
+
+
+print_x_times_10()
+print_x_times_10()
+```
+
+Will print `x` 10 times to the screen, twice. One import concept to notice is the "block" required in python. You will see every line after `def` is indented, that means it is part of that function block. You will also see the `print_x_times_10()` is not indented, so it is not part of the function block. 
+
+#### Return Values
+
+You can also return a value with a function. The idea is something that gets repeated, and you get an answer out of it. For example
+
+```python
+def get_10_stars():
+   return '*' * 10
+
+stars = get_10_stars()
+print(stars)
+```
+
+Will print
+
+```text
+**********
+```
+
+The `return` keyword is used to return a value from a function. For now, you just need to focus on making sure your code blocks remain together. In Week 3, we will deal more with functions, and you will find they are often the heart of your programming. Small simple functions can be added together to do amazing things! 
