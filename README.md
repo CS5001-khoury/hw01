@@ -38,7 +38,7 @@ For all these questions, it is recommended you open up IDLE or the python interp
    * x = 1.0 + 1 
    * x = str(1.0)
    * x = int(1 / 2)   
-    You are free to use the interpreter to help you. So you can use the following code in the interpreter to help you:  
+    You can use the following code in the interpreter to help you:  
     ```python
     x = int(1/2)
     print(x)
