@@ -148,7 +148,21 @@ Even though it says code snippet, when you click on it, you will have the 'text'
 
 ## Task 3: README.md Questions
 
-👉🏽 **Task** As a separate file named `README.md`, 
+👉🏽 **Task** Answer the questions in [README.md](../README.md).
+
+In the file [REAME.md](../README.md) there are a number of questions for you to answer. Please make sure to download the file itself, so you can keep the format. 
+
+As a reminder the download button is the top left, after you have clicked on the file in the browser!
+![Download Button](download.png)
+
+To open an `.md` (markdown) file, it needs a simple text editor. You can use IDLE, and when you select open, make sure you enable 'All Files' in the open dialog box when opening and on your first save. You can also use notepad, or notepad++, or many other programs. You will find about halfway through the semester many Integrated Development Environments (IDE) will have support for markdown. The contents of the file are meant to be simple text to read, but you will notice there is some special formatting in the file. This is called markdown, and it is a simple way to format text. You can learn more about markdown [here](https://www.markdownguide.org/basic-syntax/). These instructions were written in markdown. 
+
+For your README.md, you do not need to worry about most the formats! The TAs will read the raw text in the file, and you will get full credit for the questions. However, you should make sure to answer the questions in your own words, and not just copy and paste from the internet. You can use the internet to help you, but make sure to cite your sources. 
+
+As a reminder with the grading system, it is often all or nothing. Meaning if there is a small thing the TA wants you to fix, they will respond with a comment in gradescope making a suggestion on what to fix. 
+
+> **PRO TIP**  
+> You are free to ask about these questions in MS Teams chat! They are not meant to be super secret. Don't share your answers, but instead discuss the questions and what they mean - and point towards resources that can help others. 
 
 
 ## 📝 Grading Rubric
