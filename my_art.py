@@ -11,7 +11,7 @@ A simple assignment to have fun printing artwork.
 # It starts at the triple double quote,
 # and ends at the triple double quote
 # Make sure you update it by modifying semester and your name
-# Follow the instructions found at https://github.com/CS5001-khoury/HW1-Welcome
+# Follow the instructions found at https://github.com/CS5001-khoury/hw01/instructions/
 
 
 def main():
