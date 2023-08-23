@@ -12,6 +12,8 @@
   
 
 ## Module Specific
+For all these questions, it is recommended you open up IDLE or the python interpreter and try out the code.  You can also use the python visualizer to help you visualize the code.  You can find the visualizer here: [http://www.pythontutor.com/visualize.html#mode=edit](http://www.pythontutor.com/visualize.html#mode=edit)
+
 
 1. In IDLE shell or python interpreter directly, try the following code:
    ```python
@@ -27,7 +29,37 @@
     # write your code here
     
     ```
+    * Note: for HW02 we will return to casting, as it is common to take in client input as a string, and convert it to another type for processing.
+
+2. Match the value with the correct type for `x`. Your options for types are `int`, `float`, `str`:  
+   Example: x = 1.0 : float
+   * x = 1
+   * x = "1"
+   * x = 1.0 + 1 
+   * x = str(1.0)
+   * x = int(1 / 2)   
+    You are free to use the interpreter to help you. So you can use the following code in the interpreter to help you:  
+    ```python
+    x = int(1/2)
+    print(x)
+    type(x)
+    ```
+
+3. In the `x = int(1 / 2)` example, what is the value of x? Why? (once again you may need to research, just cite sources)
+
+4. If we wanted to force a range between 0 and `n-1` (let's say 6), but I could have any number as my variable. What operator would use? Why? Please write some code to show this! If you included prints in your code to test this, also include that in your code copy below. 
+   ```python
+   # for example
+   x = 102
+   r = x ?? 6 ## with ?? being the operator you use
+   ## your code below this line
+
+   ```
+
+5. The above is one of the unique properties of the operator you just listed. It enforces a range between 0 and `n` exclusive of n. There are a number of advantages of this that you will uncover during your CS career, and to think, it ties back to elementary school mathematics (and arguably why it is hard for us to remember it!). Can you list some real world cases/examples where you could see using this operator, as usually you are free to research just cite sources. You only need one example, but you are encouraged to come up with more. 
+
+
 
 ## Deeper Thinking
 
- For star_rating and hobby_card, we built strings and then printed out the results. Why would we want to build strings, and then print out the results, than just printing out the results directly? Don't need a correct answer, but we encourage you to ponder this question and come up with reasons on why this would be a good design pattern.  Add your answer below, around a paragraph in length. 
+ For star_rating and hobby_card, we built strings and then printed out the results. Why would we want to build strings, and then print out the results, than just printing out the results directly? Don't need a correct answer, but we encourage you to ponder this question and come up with reasons on why this would be a good design pattern.  Write your answer below. 
