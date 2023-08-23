@@ -58,6 +58,10 @@ For all these questions, it is recommended you open up IDLE or the python interp
 
 5. The above is one of the unique properties of the operator you just listed. It enforces a range between 0 and `n` exclusive of n. There are a number of advantages of this that you will uncover during your CS career, and to think, it ties back to elementary school mathematics (and arguably why it is hard for us to remember it!). Can you list some real world cases/examples where you could see using this operator, as usually you are free to research just cite sources. You only need one example, but you are encouraged to come up with more. 
 
+6. The files all have docstrings with their functions. How does this help the programmer? Beyond just reading the file, what is the command you can use to pull up the docstring of any function? (you can use the internet to help, but if you look at the bottom of the star_rating.py, you may get an idea of the command name). Use the command on print to see the docstring.  Write the command below, and the printed below that. 
+   ```python
+   # write your command here
+   ```
 
 
 ## Deeper Thinking

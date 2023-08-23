@@ -146,14 +146,9 @@ After finishing your hobby card, and ASCII art, go ahead and post the *output* (
 Even though it says code snippet, when you click on it, you will have the 'text' option which is what you should use. You may have to have the application installed for it to show up as compared to the web version (you should have it installed anyway for this course!). As teams changes, and it is slightly different, do the best you can.
 
 
-## Task 3: Reflection
+## Task 3: README.md Questions
 
-👉🏽 **Task** As a separate file named `README.md`, detail some of the things you struggled with and learned while working on the assignment, and details some topics you could work on for future assignments. This doesn't have to be all code, but could simply be time management. You can reflect on the entire module worth of information, not just this one assignment! 
-
-Deeper thinking question: For star_rating and hobby_card, we built strings and then printed out the results. Why would we want to build strings, and then print out the results, than just printing out the results directly? Don't need a correct answer, but we encourage you to ponder this question and come up with reasons on why this would be a good design pattern. 
-
-Your entire README should be a couple paragraphs (one reflection, one deeper thinking). You can use any standard text editor to create the readme file. You are free to use markdown, but don't feel you have to. Simple text is valid. This is also a great spot to list resources you used and link to them, and make sure to include your name and the semester in it! README.md is a common file with applications, and you will submit one with most assignments for this course. It is intentionally capitalized.
-
+👉🏽 **Task** As a separate file named `README.md`, 
 
 
 ## 📝 Grading Rubric
