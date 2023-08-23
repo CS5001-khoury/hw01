@@ -167,11 +167,10 @@ Your entire README should be a couple paragraphs (one reflection, one deeper thi
    * Hobby Card completed with proper formatting
    * my_art.py submitted (graded in exceeds)
 4. Exceeds  (MG)
-   * Uses * concatenation or string  f-formatting for creating stars
+   * Uses `*` concatenation or string  f-formatting for creating stars
    * Properly assigns the variables without additional prints or unneeded assignments
    * Properly updates docstrings in all files
-   * Includes reflection document with proper (at least a paragraph) reflection.
-   * Posted both ASCII art and hobby card to MS Teams 
+   * Properly answered questions in [README.md](../README.md) 
 
 
 AG - Auto-graded  
